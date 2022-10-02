@@ -1,0 +1,19 @@
+{
+  "name": "producepdf/producepdf-php",
+  "description": "PHP library for the ProducePdf API.",
+  "type": "library",
+  "require": {
+    "php": "^7.1.0",
+    "guzzlehttp/guzzle": "^6.5.8"
+  },
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ProducePdf\\": "src/producepdf/lib/"
+    },
+    "files": [
+      "src/producepdf/lib/Client.php"
+    ]
+  }
+}
